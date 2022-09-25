@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- 00 Home
+  01 Destination
+  02 Crew
+  03 Technology
+
+  So, you want to travel to
+  Space
+  Let’s face it; if you want to go to space, you might as well genuinely go to 
+  outer space and not hover kind of on the edge of it. Well sit back, and relax 
+  because we’ll give you a truly out of this world experience!
+
+  Explore -->
+
+    <!-- Home page -->
+    <div class="container">
+      <nav class="navigation">
+        <div class="nav-logo">
+          <img src="./assets/shared/logo.svg" alt="" />
+        </div>
+        <ul class="lists">
+          <li class="active list">
+            <a href="index.html" data-num="00">home</a>
+          </li>
+          <li class="list">
+            <a href="destination.html" data-num="01">Destination</a>
+          </li>
+          <li class="list"><a href="crew.html" data-num="02">crew</a></li>
+          <li class="list">
+            <a href="techno.html" data-num="03">Technology</a>
+          </li>
+        </ul>
+        <div class="toogle-btn">
+          <img src="./assets/shared/icon-hamburger.svg" alt="" />
+        </div>
+      </nav>
+
+      <!-- Home content  -->
+      <div class="home-content">
+        <h3>So, you want to travel to</h3>
+        <h1>Space</h1>
+        <p>
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </div>
+      <div class="explore">explore</div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+      integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
